@@ -1,0 +1,15 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "this is about react app",
+  "keywords": [
+    "node",
+    "react"
+  ],
+  "author": "nareshit",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "react": "^18.2.0"
+  }
+}

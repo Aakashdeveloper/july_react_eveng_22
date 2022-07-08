@@ -54,8 +54,45 @@ React is a frontend framework/lib which help to build
 single page application using component base structure
 
 
+2,014,487
+open source
+> Any one can contribute to development
+
 JSON
-npm 
+> JavaScript object notation
+# way to reperesnt data
+> key value pair
+[
+    {
+        "rollNo":1,
+        "name":"Nikita",
+        "city":"Paris
+    },
+    {
+        "name":"Amit",
+        "rollNo":1,
+        "city":"Delhi"
+    }
+]
+npm  > node package manager
+>>>>>>Package.json<<<<<<
+> Entry point to application
+> meta Data(name of app, version description)
+> cmd (start, build, test)
+> package name (used in app)
+
+//////Step to generate Package.json/////
+** Nodejs must be installed in your laptop
+> open terminal and go inside this folder
+> npm init
+> answer all questions
+> type yes
+
+//////Step to install package/////
+** Nodejs must be installed in your laptop
+> open terminal and go inside this folder
+> npm i packagename / npm install packagename
+
 node-modules
 react-app-setup
 
