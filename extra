@@ -122,6 +122,9 @@ npm  > node package manager
 ** Nodejs must be installed in your laptop
 > open terminal and go inside this folder
 
+npm uninstall packagename
+npm i package@version
+
 
 JAVASCRIPT
 > var
@@ -132,6 +135,14 @@ JAVASCRIPT
 > map filter  > in course
 > array (push, pop, slice,splice, indexof)
 > Object
+
+inline
+> start in the same 
+> only occupy the same required
+block
+> start in the new line
+> always take the whole width of screen
+
 
 
 Demo: 01 ( 06-07-2022)
