@@ -144,6 +144,36 @@ block
 > always take the whole width of screen
 
 
+inline 
+styletag
+stylesheet
+
+inline> styletag > stylesheet
+//inline
+{
+    color:red,
+    font-size:30px
+}
+//styletag
+{
+    color:orange,
+    display:block
+}
+//stylesheet
+{
+    font-size:40px;
+    disply:inline;
+    border:2px solid red
+}
+
+{
+    color:red;
+    font-size:30px;
+    display:block;
+    border:2px solid red
+}
+
+
 
 Demo: 01 ( 06-07-2022)
 Video Link :  shorturl.at/cix07
@@ -178,3 +208,5 @@ Note: - If you want to use phone pay or Google pay then follow the below steps.
 You can find the Option Bank Transfer in Phonepe and Google pay. There you can enter our bank account number and you can transfer the amount. Please mention your Name on the receipt and send a email once the payment is done to support@nareshit.com
 For any Queries, you can whatsapp with Ur course time on +91-7337313415
 Send me the screenshot after done with Ur payment mentioning Ur name mobile number course name faculty timing in a format and send me
+
+
