@@ -1,0 +1,43 @@
+h1{
+    color:lightcoral
+}
+#heading{
+    text-align:center
+}
+#main{
+    display:inline-block
+}
+.card{
+    height:400px;
+    background-color: orange;
+    width:20%;
+    float: left;
+    margin:2%;
+    overflow: scroll;
+    
+}
+.cardText{
+    overflow: scroll;
+    height:200px
+}
+.green{
+    background-color: green;
+}
+#skyblue{
+    background-color: skyblue;
+}
+.purple{
+    background-color: purple;
+}
+header, footer{
+    text-align:center;
+    color:green
+}
+.card > img{
+    height:200px;
+    width:100%
+}
+.card h1{
+    text-align:center;
+    color: white;
+}

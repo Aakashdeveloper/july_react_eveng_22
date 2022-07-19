@@ -1,26 +1,59 @@
 <html>
     <head>
         <title>Css Page</title>
-        <link href="first.css" rel="stylesheet" type="text/css">
+        <style>
+            h1{
+                color:red
+            }
+            #heading{
+                text-align:center
+            }
+            .card{
+                height:400px;
+                background-color: orange;
+                width:20%;
+                float:left;
+                margin:2%;
+                overflow: scroll;
+            }
+            .green{
+                background-color: green;
+            }
+            #skyblue{
+                background-color: skyblue;
+            }
+            .purple{
+                background-color: purple;
+            }
+            header footer{
+                text-align:center;
+                color:green
+            }
+            .card > img{
+                height:200px;
+                width:100%
+            }
+            .card h1{
+                text-align:center;
+                color: white;
+            }
+        </style>
     </head>
     <body>
         <header id="heading">
             <h1>Cities</h1>
         </header>
         <hr/>
-        <div id="main">
+        <div>
             <div class="card">
                 <img src="image/amsterdam.jpeg" alt="amsterdam"/>
-                <div class="cardText">
-                    <h1>Amsterdam</h1>
-                    <p>
-                        Amsterdam is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specime
-                    </p>
-                    <p>
-                        Amsterdam is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specime
-                    </p>
-                </div>
-                
+                <h1>Amsterdam</h1>
+                <p>
+                    Amsterdam is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specime
+                </p>
+                <p>
+                    Amsterdam is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specime
+                </p>
             </div>
             <div class="card green">
                 <img src="image/manali.jpeg" alt="amsterdam"/>
