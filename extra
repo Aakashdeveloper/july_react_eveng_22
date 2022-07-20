@@ -183,4 +183,5 @@ Class
 > use to target multiple element with same property
 > .
 
-
+position: absolute
+position: relative

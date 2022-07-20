@@ -1,0 +1,77 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+header{
+    height:60px;
+    width:100%;
+    /* border:2px solid olive; */
+    background-color:#3b2632
+}
+
+#brand{
+    font-size:30px;
+    color:white;
+    margin-left:1%;
+    margin-top:1%;
+    float: left;
+}
+
+#social{
+    float:right
+}
+
+.socialImg{
+    height:50px;
+}
+
+/*Search Css*/
+#search{
+    height:450px;
+    width:100%;
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    /* background-size:cover; */
+    /* border:5px dotted red */
+}
+
+.logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left: 44%;
+    margin-top:1%;
+    position: absolute
+}
+
+.logo>span{
+    margin-left: 21%;
+    margin-top: 14%;
+    position: absolute;
+    font-size: 90px;
+}
+
+#heading{
+    margin-left: 30%;
+    margin-top: 13%;
+    position: absolute;
+    font-size: 60px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#quickSearch{
+    height:600px;
+    width:100%;
+    border:5px groove gray
+}
+
+footer{
+    height:60px;
+    width:100%;
+    border:2px groove green
+}
