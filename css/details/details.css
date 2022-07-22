@@ -1,0 +1,96 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+header{
+    height:60px;
+    width:100%;
+    /* border:2px solid olive; */
+    background-color:#3b2632
+}
+
+#brand{
+    font-size:30px;
+    color:white;
+    margin-left:1%;
+    margin-top:1%;
+    float: left;
+}
+
+#social{
+    float:right
+}
+
+.socialImg{
+    height:50px;
+}
+
+/*content Css*/
+#content{
+    height:600px;
+    width:80%;
+    margin-left: 10%;
+    margin-top:4%;
+    display: inline-block;
+}
+
+#imgDiv{
+    height:450px;
+    width:45%;
+    float: left;
+    border:8px groove #3b2632
+}
+
+#imgDiv img{
+    height:450px;
+    width:100%;
+}
+
+#contentDiv{
+    height:550px;
+    width:50%;
+    margin-left: 3%;
+    margin-top:-2%;
+    float: left;
+}
+
+figure{
+    float:left;
+    margin-left:5%;
+}
+
+.feature_container{
+    margin-left:-5%;
+}
+
+.fetIcon{
+    height:100px;
+    width:100px;
+    margin-left:2%;
+}
+
+footer{
+    margin-top:2%;
+    height:120px;
+    width:100%;
+    background-color:#3b2632;
+    color: white;
+    text-align: center;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.footDiv{
+    float:left;
+    width:32%;
+    border-right: 2px solid white;
+}
+
+.noborder{
+    border:none
+}

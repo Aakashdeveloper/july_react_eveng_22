@@ -172,3 +172,60 @@ ul{
 .noborder{
     border:none
 }
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:skyblue;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:rgb(172, 242, 192);
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(244, 196, 237);
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:rgb(244, 215, 196);
+    }
+    .tileContainer{
+        width:45%;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(244, 243, 196);
+    }
+}
+
+
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(205, 172, 242);
+    }
+    .tileContainer{
+        width:100%;
+        margin-top:10%;
+    }
+    #heading {
+        margin-left: 0%;
+        margin-top: 40%;
+        font-size: 44px;
+    }
+    #dropdown {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 54%;
+    }
+    .logo{
+        margin-left: 28%;
+    }
+}
