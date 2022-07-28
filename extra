@@ -199,3 +199,26 @@ window.innerWidth
 954
 window.innerWidth
 1246
+
+bootstarp3
+768px < xs
+768px > sm
+992px > md
+1200px > lg
+
+bootstarp4
+576 < col-
+576 > sm
+768 > md
+992 > lg
+1200 > xl
+
+bootstarp5
+576 < col-
+576 > sm
+768 > md
+992 > lg
+1200 > xl
+1400 > xxl
+
+https://www.w3schools.com/howto/howto_css_image_overlay.asp
