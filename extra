@@ -222,3 +222,17 @@ bootstarp5
 1400 > xxl
 
 https://www.w3schools.com/howto/howto_css_image_overlay.asp
+
+
+//////////////Es5/////
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+///es6////
+let add = (a,b) => {return a+b}
+add(1,2)
+
+es > Ecma Script
