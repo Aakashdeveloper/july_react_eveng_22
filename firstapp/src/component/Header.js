@@ -1,14 +1,22 @@
-import React from 'react';
+import React,{Fragment,Component} from 'react';
+import './Header.css'
 
-const Header = () => {
-    return(
-        <div>
-            <center>
-                <h1>Developer Funnel</h1>
-            </center>
-            <hr/>
-        </div>
-    )
+class Header extends Component {
+    render(){
+        return(
+            <Fragment>
+                <header>
+                    <div className="logo">React App</div>
+                    <center>
+                        <input/>
+                        <div style={{color:'white',fontSize:'20px'}}>User Text Here</div>
+                    </center>
+                </header>
+                <hr/>
+            </Fragment>
+        )
+    }
 }
+
 
 export default Header;

@@ -1,32 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './component/Header';
-import Footer from './component/Footer';
-
-const App = () => {
-    return (
-        <div>
-            <Header/>
-            <h1>Hiii From React</h1>
-            <h2>Developer Funnel</h2>
-            <Footer/>
-        </div>
-    )
-}
-
+import App from './component/Home';
 const container =  document.getElementById('root');
 const root = ReactDOM.createRoot(container);
 root.render(<App/>)
-
-
-// var React = require('react');
-// var ReactDOM = require('react-dom');
-
-
-// function App(){
-//     return(
-//         <h1>Hiii From React</h1>
-//     )
-// }
-
-// ReactDOM.render(<App/>, document.getElementById('root'))

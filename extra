@@ -255,3 +255,24 @@ function add(a,b){
 }
 add(1,2)
 [1,2]
+
+
+functional
+> Dumb component
+> Only use for the purpose of display
+> We cannot maintain state
+class
+> Logical Component
+> Use of calling api, writting logics as well as display
+> We can maintain state
+
+hooks
+/////////////////////
+props
+> Help to transfer data between 2 nested component
+> Value of props cannot be updated (immutable)
+state
+> Act like a local variable
+> Every component can have ist own state
+> State can be update (mutable)
+> Any data interaction will happen through state
