@@ -276,3 +276,22 @@ state
 > Every component can have ist own state
 > State can be update (mutable)
 > Any data interaction will happen through state
+
+
+
+////ternary operator
+
+var a = 10
+a>10?"hii":"Bie"
+'Bie'
+var a = 10
+
+a==10?"hii":"Bie"
+'hii'
+
+var a = 10
+a>10?a+1:a-1
+9
+var a = 10
+a==10?a+1:a-1
+11
