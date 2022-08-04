@@ -2,6 +2,7 @@ import React from 'react';
 
 const Footer = (props) => {
     console.log("in footer",props)
+
     return(
         <React.Fragment>
             <hr/>

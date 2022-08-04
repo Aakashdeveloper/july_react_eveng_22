@@ -295,3 +295,54 @@ a>10?a+1:a-1
 var a = 10
 a==10?a+1:a-1
 11
+
+//////map//////
+> map help to iterate over the data
+> it help to apply logic like add,sub,mul, div,bind in html
+> it always return the same length of output array as input
+
+var a = [4,7,9,12,3,45,67,8,18,31]
+a.map((data) => {return data*2})
+[8, 14, 18, 24, 6, 90, 134, 16, 36, 62]]
+
+
+//////filter//////
+> filter help to filter out the way
+> it only return those value for which condition/output is true
+> it may or may not return same length of output
+
+var a = [4,7,9,12,3,45,67,8,18,31]
+a.filter((data) => {return data>20})
+[45, 67, 31]
+
+
+var a = [-1,0,1,2,3]
+a.map((data) => {return data*2})
+[-2, 0, 2, 4, 6]
+a.filter((data) => {return data*2})
+[-1, 1, 2, 3]
+
+truthy > any number except 0 weather +ve or -ve, true , string
+falsy > 0, null, undefined , false
+
+var city = ["Delhi","Mumbai","Pune","Boston","Helsinki"]
+city.indexOf('Pune')
+2
+city.indexOf('Delhi')
+0
+city.indexOf('Amsterdam')
+-1
+city.indexOf('London')
+-1
+
+parent > child (props)
+child > parent (props with function)
+
+
+//parent
+function add(a,b){
+    return a+b
+}
+
+//child (call the function & pass data)
+add(1,2)
