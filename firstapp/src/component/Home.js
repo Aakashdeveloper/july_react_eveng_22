@@ -9,19 +9,30 @@ class App extends Component {
         super()
 
         this.state={
-            productData:JSON
+            productData:JSON,
+            filteredData:JSON
         }
     }
 
-    filterData = () => {
+    /*
+    var a = [4,7,9,12,3,45,67,8,18,31]
+    a.filter((data) => {return data>20})
+    */
+    filterData = (keyword) => {
+        
+        let output = this.state.productData.filter((data) => {
+            return (data.name.toLowerCase().indexOf(keyword.toLowerCase())>-1)
+        })
+        console.log("in filtet",output)
 
+        this.setState({filteredData:output})
     }
 
     render(){
         return (
             <>
-                <Header userInput={(data) => {console.log('inside home',data)}}/>
-                <Product prodData={this.state.productData}/>
+                <Header userInput={(data) => {this.filterData(data)}}/>
+                <Product prodData={this.state.filteredData}/>
                 <Footer year="2022" month="July"/>
             </>
         )
