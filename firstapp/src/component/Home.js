@@ -14,10 +14,6 @@ class App extends Component {
         }
     }
 
-    /*
-    var a = [4,7,9,12,3,45,67,8,18,31]
-    a.filter((data) => {return data>20})
-    */
     filterData = (keyword) => {
         
         let output = this.state.productData.filter((data) => {
