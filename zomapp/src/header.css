@@ -1,0 +1,28 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+header{
+    height:60px;
+    width:100%;
+    /* border:2px solid olive; */
+    background-color:#3b2632
+}
+
+#brand{
+    font-size:30px;
+    color:white;
+    margin-left:1%;
+    margin-top:1%;
+    float: left;
+}
+
+#social{
+    float:right
+}
+
+.socialImg{
+    height:50px;
+}
