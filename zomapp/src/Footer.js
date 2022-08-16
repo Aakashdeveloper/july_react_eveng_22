@@ -6,19 +6,19 @@ const Footer = (props) => {
         <footer>
             <hr/>
             <h3>&copy; Developer Funnel</h3>
-            <div class="footDiv">
+            <div className="footDiv">
                 <ul>
                     <li>Contact Us</li>
                     <li>About Us</li>
                 </ul>
             </div>
-            <div class="footDiv">
+            <div className="footDiv">
                 <ul>
                     <li>Contact Us</li>
                     <li>About Us</li>
                 </ul>
             </div>
-            <div class="footDiv noborder">
+            <div className="footDiv noborder">
                 <ul>
                     <li>Contact Us</li>
                     <li>About Us</li>

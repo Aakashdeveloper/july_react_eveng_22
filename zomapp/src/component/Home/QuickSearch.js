@@ -12,41 +12,41 @@ class QuickSearch extends Component {
                 <span id="QuickSubHeading">
                     Find Restaurants By Meal Type
                 </span>
-                <div class="tileContainer">
-                    <div class="tileComponent1">
+                <div className="tileContainer">
+                    <div className="tileComponent1">
                         <img src="images/lunch.png" alt="breakfast"/>
                     </div>
-                    <div class="tileComponent2">
-                        <div class="componentHeading">
+                    <div className="tileComponent2">
+                        <div className="componentHeading">
                             <a href="../listing/listing.html">Breakfast</a>
                         </div>
-                        <div class="componentSubHeading">
+                        <div className="componentSubHeading">
                             Best Deals For BreakFast
                         </div>
                     </div>
                 </div>
-                <div class="tileContainer">
-                    <div class="tileComponent1">
+                <div className="tileContainer">
+                    <div className="tileComponent1">
                         <img src="images/nightlife.png" alt="breakfast"/>
                     </div>
-                    <div class="tileComponent2">
-                        <div class="componentHeading">
+                    <div className="tileComponent2">
+                        <div className="componentHeading">
                             <a href="../listing/listing.html">Breakfast</a>
                         </div>
-                        <div class="componentSubHeading">
+                        <div className="componentSubHeading">
                             Best Deals For BreakFast
                         </div>
                     </div>
                 </div>
-                <div class="tileContainer">
-                    <div class="tileComponent1">
+                <div className="tileContainer">
+                    <div className="tileComponent1">
                         <img src="images/dinner.png" alt="breakfast"/>
                     </div>
-                    <div class="tileComponent2">
-                        <div class="componentHeading">
+                    <div className="tileComponent2">
+                        <div className="componentHeading">
                             <a href="../listing/listing.html">Breakfast</a>
                         </div>
-                        <div class="componentSubHeading">
+                        <div className="componentSubHeading">
                             Best Deals For BreakFast
                         </div>
                     </div>
