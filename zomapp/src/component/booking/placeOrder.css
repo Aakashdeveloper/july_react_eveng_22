@@ -1,0 +1,12 @@
+.orderItem{
+    display:flex;
+    height:300px;
+    width:250px;
+    margin:2%;
+    box-shadow:10px 20px 10px gray
+}
+
+.orderItem > img{
+    height:100%;
+    width:100%;
+}

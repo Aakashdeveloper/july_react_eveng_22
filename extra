@@ -388,3 +388,35 @@ Match > for params
        
 (get) restaurants>         https://zomatoajulypi.herokuapp.com/restaurants
 https://developerpayment.herokuapp.com/paynow
+
+
+var a = [67,43,23,9,17,8,23]
+a.splice(2,1)
+[23]
+a
+(6) [67, 43, 9, 17, 8, 23]
+a.splice(3,1)
+[17]
+a
+(5) [67, 43, 9, 8, 23]
+
+var a = [67,43,23,9,17,8,23]
+a.indexOf(9)
+3
+a.indexOf(23)
+2
+a.indexOf(58)
+-1
+
+var a = [67,43,23,9,17,8,23]
+undefined
+a.splice(a.indexOf(23),1)
+[23]
+a
+(6) [67, 43, 9, 17, 8, 23]
+a.splice(a.indexOf(23),1)
+[23]
+a
+(5) [67, 43, 9, 17, 8]
+a.splice(a.indexOf(23),1)
+[8]
