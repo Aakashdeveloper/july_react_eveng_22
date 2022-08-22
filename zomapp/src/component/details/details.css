@@ -4,7 +4,7 @@
 }
 
 .tileImage{
-    height: 550px;
+
     width:48%;
     float: left;
 }
@@ -12,7 +12,7 @@
 
 
 .tileContent{
-    height: 550px;
+
     width:50%;
     margin-left: 2%;
     float: left;

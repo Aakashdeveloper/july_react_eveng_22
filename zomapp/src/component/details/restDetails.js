@@ -1,6 +1,10 @@
 import React,{Component} from 'react';
 import axios from 'axios';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 import './details.css';
+import {Link} from 'react-router-dom';
+import MenuDisplay from './menuDisplay';
 
 const url = "http://zomatoajulypi.herokuapp.com/details"
 const menuUrl = "https://zomatoajulypi.herokuapp.com/menu"
@@ -12,7 +16,8 @@ class Details extends Component{
 
         this.state={
             details:'',
-            menuList:''
+            menuList:'',
+            mealId: sessionStorage.getItem('mealId')?sessionStorage.getItem('mealId'):1
         }
     }
 
@@ -43,8 +48,33 @@ class Details extends Component{
                                 </div>
                             </div>
                         </div>
+                        <Tabs>
+                            <TabList>
+                                <Tab>About</Tab>
+                                <Tab>Contact</Tab>
+                            </TabList>
+
+                            <TabPanel>
+                                <h2>{details.restaurant_name}</h2>
+                                <p>
+                                    {details.restaurant_name} is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen 
+                                </p>
+                            </TabPanel>
+                            <TabPanel>
+                                <h2>{details.address}</h2>
+                                <h3>Phone: {details.contact_number}</h3>
+                            </TabPanel>
+                        </Tabs>
+                        <Link to={`/listing/${this.state.mealId}`} className="btn btn-danger">Back</Link>
+                        &nbsp;
+                        <button className="btn btn-success">Proceed</button>
+                    </div>
+                    <div className="col-md-12">
+                        <center><h2>Menu</h2></center>
+                        <MenuDisplay menudata={this.state.menuList}/>
                     </div>
                 </div>
+                
             </>
         )
     }
