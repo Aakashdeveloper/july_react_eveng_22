@@ -420,3 +420,7 @@ a
 (5) [67, 43, 9, 17, 8]
 a.splice(a.indexOf(23),1)
 [8]
+
+
+///dummy api
+npx json-server --watch order.json --port 9870
