@@ -27,6 +27,7 @@ class PlaceOrder extends Component{
 
     handleCheckout = () => {
         let obj = this.state;
+        
         obj.menuItem = sessionStorage.getItem('menu');
         fetch(placeOrder,{
             method:'POST',

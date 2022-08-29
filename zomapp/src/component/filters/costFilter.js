@@ -9,7 +9,7 @@ class CostFilter extends Component {
         let mealId = this.props.mealId;
         let cost = (event.target.value).split('-')
         let lcost = cost[0];
-        let hcost = cost[1]
+        let hcost = cost[1];
         let costUrl = ""
         if(event.target.value === ""){
             costUrl = `${url}/${mealId}`
