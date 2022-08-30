@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 const UserDisplay = (props) => {
 
@@ -21,6 +22,7 @@ const UserDisplay = (props) => {
     return(
         <div className="container">
             <center><h3>Users</h3></center>
+            <Link to="/profile" className="btn btn-info">Profile</Link>
             <table className="table">
                 <thead>
                     <tr>
