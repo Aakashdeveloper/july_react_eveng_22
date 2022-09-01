@@ -34,7 +34,7 @@ class Login extends Component{
                 this.setState({message:data.token})
             }else{
                 sessionStorage.setItem('ltk',data.token)
-                this.props.history.push('/profile')
+                this.props.history.push('/')
             }
         })
     }

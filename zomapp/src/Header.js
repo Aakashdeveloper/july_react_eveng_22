@@ -1,7 +1,55 @@
 import React,{Component} from 'react';
 import './header.css';
+import {Link} from 'react-router-dom';
 
+const url = "https://developerjwt.herokuapp.com/api/auth/userinfo"
 class Header extends Component {
+
+    constructor(props){
+        super(props);
+
+        this.state={
+            userData:''
+        }
+    }
+
+    handleLogout = () => {
+        sessionStorage.removeItem('userInfo');
+        sessionStorage.setItem('loginStatus','LoggedOut');
+        sessionStorage.removeItem('ltk')
+        this.setState({userData:''})
+        this.props.history.push('/')
+    }
+
+    conditionalHeader = () => {
+        if(sessionStorage.getItem('ltk') !== null){
+            let data = this.state.userData;
+            let outputArray = [data.name,data.email,data.phone];
+            sessionStorage.setItem('userInfo',outputArray);
+            sessionStorage.setItem('loginStatus','LoggedIn');
+            return(
+                <>
+                    <Link to="/" className="btn btn-info">
+                        <span className="glyphicon glyphicon-user"></span> Hi {data.name}
+                    </Link> &nbsp;
+                    <button className="btn btn-danger" onClick={this.handleLogout}>
+                        <span className="glyphicon glyphicon-log-out"></span> Logout
+                    </button>
+                </>
+            )
+        }else{
+            return(
+                <>
+                    <Link to="/login" className="btn btn-success">
+                        <span className="glyphicon glyphicon-log-in"></span> LogIn
+                    </Link> &nbsp;
+                    <Link to="/register" className="btn btn-info">
+                        <span className="glyphicon glyphicon-user"></span> Register
+                    </Link>
+                </>
+            )
+        }
+    }
 
     render(){
         return(
@@ -10,22 +58,29 @@ class Header extends Component {
                     Developer Funnel
                 </div>
                 <div id="social">
-                    <a href="www.facebook.com">
-                        <img src="https://i.ibb.co/GRZx3D5/facebook.png" alt="fb"
-                        className="socialImg"/>
-                    </a>
-                    <a href="www.facebook.com">
-                        <img src="https://i.ibb.co/19H5LvT/insta.png" alt="fb"
-                        className="socialImg"/>
-                    </a>
-                    <a href="www.facebook.com">
-                        <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fb"
-                        className="socialImg"/>
-                    </a>
+                   {this.conditionalHeader()}
                 </div>
                 </header>
         )
     }
+
+
+    componentDidMount(){
+        fetch(url,{
+            method: 'GET',
+            headers: {
+                'x-access-token':sessionStorage.getItem('ltk')
+            }
+        })
+        .then((res) => res.json())
+        .then((data) => {
+            this.setState({
+                userData:data
+            })
+        })
+    }
+
+
     
 }
 

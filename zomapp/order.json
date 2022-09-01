@@ -29,6 +29,46 @@
       "phone": 87867678,
       "address": "YRT 45/13",
       "menuItem": "51,52"
+    },
+    {
+      "id": 55466,
+      "hotel_name": "Domino's Pizza",
+      "name": "Ruchika",
+      "email": "ruchi@gmail.com",
+      "cost": 328,
+      "phone": "87867678",
+      "address": "YRT 45/13",
+      "menuItem": "1,2"
+    },
+    {
+      "id": 27176,
+      "hotel_name": "Chandni Chowk 2 Bangalore",
+      "name": "Ruchika",
+      "email": "ruchi@gmail.com",
+      "cost": 323.45,
+      "phone": "87867678",
+      "address": "YRT 45/13",
+      "menuItem": "62,63"
+    },
+    {
+      "id": 88985,
+      "hotel_name": "Food Adda",
+      "name": "Ruchika",
+      "email": "ruchi@gmail.com",
+      "cost": 518,
+      "phone": "87867678",
+      "address": "YRT 45/13",
+      "menuItem": "11,12"
+    },
+    {
+      "id": 6125,
+      "hotel_name": "Burger King",
+      "name": "Geetika",
+      "email": "geetika@gmail.com",
+      "cost": 269.14,
+      "phone": "8936464566",
+      "address": "YRT 45/13",
+      "menuItem": "54,55"
     }
   ]
 }
