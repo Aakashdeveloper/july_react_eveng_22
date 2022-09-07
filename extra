@@ -22,16 +22,16 @@ Npm
 React = 3
 Mock API
 json-server
+Deployment
+-> MERN
+-> heroku
+-> Netlify
+-> ReactPy
+-> Aws
+-> Docker
 ///////////////////
 React-JWT(Login Logout)-2
 Github
-Deployment
--> MERN
--> ReactPy
--> heroku
--> Netlify
--> Aws
--> Docker
 -> Nginx
 
 React_hooks -1
@@ -443,3 +443,9 @@ npx json-server --watch order.json --port 9870
 /******UserInfo*****/
 (GET) => https://developerjwt.herokuapp.com/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
+
+
+//deployment
+ npm run build
+
+ heroku.com
