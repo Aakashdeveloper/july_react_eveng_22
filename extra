@@ -29,10 +29,11 @@ Deployment
 -> ReactPy
 -> Aws
 -> Docker
+-> Nginx
 ///////////////////
 React-JWT(Login Logout)-2
 Github
--> Nginx
+
 
 React_hooks -1
 HOC
