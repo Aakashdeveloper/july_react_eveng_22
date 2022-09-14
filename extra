@@ -34,9 +34,9 @@ React-JWT(Login Logout)-2
 React_hooks -1
 HOC
 React-GraphQL - 1 
+Basic React Native- 1
 ///////////////////
 Github
-Basic React Native- 1
 React-Redux - 1
 React-Redux - 1
 React-PWA - 1
@@ -451,3 +451,15 @@ heroku.com
 
 
 https://www.codingame.com/playgrounds/8595/reactjs-higher-order-components-tutorial
+
+
+//// Native app
+> npx create-react-native-app appname
+> npm run web
+> http://localhost:19006/
+
+
+view  >>> Display part of the application
+Action >>> Where all the api call happen
+reducer >>> Help to manage the state
+store >>> Where we save the state
