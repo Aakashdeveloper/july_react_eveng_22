@@ -35,11 +35,11 @@ React_hooks -1
 HOC
 React-GraphQL - 1 
 Basic React Native- 1
-///////////////////
-Github
 React-Redux - 1
 React-Redux - 1
 React-PWA - 1
+///////////////////
+Github
 Testing Jest Enzime
 ReactMaps
 ///////Walkthrough///////
@@ -463,3 +463,6 @@ view  >>> Display part of the application
 Action >>> Where all the api call happen
 reducer >>> Help to manage the state
 store >>> Where we save the state
+
+
+npm i redux react-redux redux-promise react-slick

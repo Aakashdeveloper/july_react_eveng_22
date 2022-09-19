@@ -1,4 +1,4 @@
-const base_url = "http://localhost:7800/";
+const base_url = "http://localhost:7800";
 
 export function latestNews(){
     const output = fetch(`${base_url}/articles?_end=3`,{method:'GET'})
