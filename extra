@@ -38,10 +38,11 @@ Basic React Native- 1
 React-Redux - 1
 React-Redux - 1
 React-PWA - 1
+ReactMaps
 ///////////////////
 Github
 Testing Jest Enzime
-ReactMaps
+
 ///////Walkthrough///////
 React-Saga -1
 React-with-typescript-1
@@ -466,3 +467,40 @@ store >>> Where we save the state
 
 
 npm i redux react-redux redux-promise react-slick
+
+
+
+function loopme(a){
+    for(i=0;i<a;i++){
+        console.log(i)
+    }
+}
+
+loopme(5)
+0
+1
+2
+3
+4
+
+
+function * loopme(a){
+    for(i=0;i<a;i++){
+        yield i
+    }
+}
+undefined
+loopme(5)
+loopme {<suspended>}
+let data = loopme(5)
+undefined
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: 3, done: false}
+data.next()
+{value: 4, done: false}

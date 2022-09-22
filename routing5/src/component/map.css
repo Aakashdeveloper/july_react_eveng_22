@@ -1,0 +1,9 @@
+.map-container {
+    position: absolute;
+    display: inline-block;
+    height: 646px;
+    width: 69%;
+    margin-top: 1%;
+    margin-left: 5%;
+    border: 5px solid #006341;
+}

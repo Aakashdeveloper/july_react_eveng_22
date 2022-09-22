@@ -1,0 +1,27 @@
+button{
+    height: 2.5px;
+    border: none;
+    font-size: 1.5px;
+    border-bottom: 4px solid #ccc;
+    margin-left: .5px;
+    cursor: pointer;
+    color: gray
+}
+
+.container{
+    font-size: 1.5px;
+}
+
+.is-completed {
+    text-decoration: line-through;
+    color: gray
+}
+
+.tdl-input{
+    padding:  .5px;
+    margin: 1px 0;
+}
+
+.tdl-task{
+    padding: .5px;
+}
